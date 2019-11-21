@@ -12,6 +12,16 @@ h1 {
 	font-style: italic;
 }
 
+table {
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 5px;
+}
+
+td {
+padding: 10px;
+}
+
 footer {
 	text-align: center;
 	font-size: 12px;
