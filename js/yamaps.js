@@ -4,5 +4,13 @@ ymaps.ready(function () {
 			  zoom: 10
 			});
 
-                        myMap.openBalloon([55.79556 37.709156]);
+                        // Создание метки 
+			var myPlacemark = new ymaps.Placemark(
+			// Координаты метки
+			[55.76, 37.64]        
+			);
+ 
+		// Добавление метки на карту
+		myMap.geoObjects.add(myPlacemark);
+
 		  });
