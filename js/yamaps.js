@@ -8,7 +8,7 @@ ymaps.ready(function () {
                         var placemark = new YMaps.Placemark(new YMaps.GeoPoint(37.709156, 55.795560));
                         placemark.name = "Салон красоты";
                         placemark.description = "творим искусство";
-                        map.addOverlay(placemark);
+                        myMap.addOverlay(placemark);
 
                         // Открывает балун
                         placemark.openBalloon();
