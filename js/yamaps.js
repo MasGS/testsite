@@ -5,8 +5,11 @@ ymaps.ready(function () {
 			});
 
 			var myPlacemark = new ymaps.Placemark(
-			[55.795560, 37.709156]        
-			);
+			[55.795560, 37.709156], {
+                        iconContent: 'Салон красоты'
+                        }, {
+                        preset: 'twirl#blueStretchyIcon'
+			});
  
 		        myMap.geoObjects.add(myPlacemark);
 
