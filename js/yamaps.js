@@ -5,7 +5,7 @@ ymaps.ready(function () {
 			});
 
                         // Создает метку и добавляет ее на карту
-                        var placemark = new YMaps.Placemark(new YMaps.GeoPoint(37.64, 55.76));
+                        var placemark = new YMaps.Placemark(new YMaps.GeoPoint(37.709156, 55.795560));
                         placemark.name = "Салон красоты";
                         placemark.description = "творим искусство";
                         map.addOverlay(placemark);
