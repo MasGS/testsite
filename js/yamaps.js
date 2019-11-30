@@ -4,5 +4,5 @@ ymaps.ready(function () {
 			  zoom: 10
 			});
 
-                        map.openBalloon(new YMaps.GeoPoint(37.64, 55.76), "Москва");
+                        map.openBalloon(new YMaps.GeoPoint(55.79556, 37.709156), "Москва");
 		  });
