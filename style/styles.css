@@ -1,9 +1,9 @@
 body {
     background-image:
 		linear-gradient(to bottom, rgba(255, 10, 40, 0.6) 50px, rgba(255, 255, 255, 0.4) 200px),
-		url(../images/background.jpg) 90%;
+		url(../images/background.jpg);
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
