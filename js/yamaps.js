@@ -4,5 +4,5 @@ ymaps.ready(function () {
 			  zoom: 10
 			});
 
-                        myMap.openBalloon([37.709156, 55.79556]);
+                        myMap.openBalloon([55.79556 37.709156]);
 		  });
