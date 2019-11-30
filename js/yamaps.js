@@ -4,12 +4,5 @@ ymaps.ready(function () {
 			  zoom: 10
 			});
 
-                        // Создает метку и добавляет ее на карту
-                        var placemark = new YMaps.Placemark(new YMaps.GeoPoint(37.709156, 55.795560));
-                        placemark.name = "Салон красоты";
-                        placemark.description = "творим искусство";
-                        myMap.addOverlay(placemark);
-
-                        // Открывает балун
-                        placemark.openBalloon();
+                        map.openBalloon(new YMaps.GeoPoint(37.64, 55.76), "Москва");
 		  });
