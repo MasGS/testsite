@@ -8,7 +8,7 @@ ymaps.ready(function () {
 			[55.795560, 37.709156], {
                         iconContent: 'Салон красоты'
                         }, {
-                        preset: 'twirl#blueStretchyIcon'
+                        preset: 'islands#blueStretchyIcon'
 			});
  
 		        myMap.geoObjects.add(myPlacemark);
